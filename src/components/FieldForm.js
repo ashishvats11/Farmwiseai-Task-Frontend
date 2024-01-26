@@ -122,7 +122,7 @@ const FieldForm = ({ onSubmit }) => {
             </label>
             <label>
                 Field Data:
-                <input type="text" name="fieldData" value={field.fieldData} onChange={handleChange} required />
+                <input type="text" name="fieldData" value={field.fieldData} onChange={handleChange}  />
             </label>
             <button type="submit" disabled={fieldCount >= 4}>Confirm</button>
         </form>
